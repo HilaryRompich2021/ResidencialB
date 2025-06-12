@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins ={ "http://localhost:4200", "https://micasitaseguraresidencialf-cnema5azfjbxdje0.canadacentral-01.azurewebsites.net"})
+@CrossOrigin(origins ={ "http://localhost:4200", "https://micasitaseguraresidencial-g3bed6dzbab9c2a4.canadacentral-01.azurewebsites.net"
+        ,"https://micasitaseguraresidencialf-cnema5azfjbxdje0.canadacentral-01.azurewebsites.net"})
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
 public class AuthController {

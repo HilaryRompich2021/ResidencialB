@@ -14,7 +14,8 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4200","https://micasitaseguraresidencialf-cnema5azfjbxdje0.canadacentral-01.azurewebsites.net"
+                        .allowedOrigins("http://localhost:4200", "https://micasitaseguraresidencial-g3bed6dzbab9c2a4.canadacentral-01.azurewebsites.net"
+                                ,"https://micasitaseguraresidencialf-cnema5azfjbxdje0.canadacentral-01.azurewebsites.net"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
