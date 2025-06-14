@@ -31,7 +31,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
         registry
                 .addHandler(handler, "/ws/talanquera")
                 .addInterceptors(jwtInterceptor)
-                .setAllowedOrigins("*")
+                .setAllowedOrigins("https://micasitaseguraresidencialf-cnema5azfjbxdje0.canadacentral-01.azurewebsites.net")
                 .setHandshakeHandler(handshakeHandler);
     }
 }

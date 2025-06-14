@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class AccesoQRService {
 
     private final AccesoQRRepository repo;
